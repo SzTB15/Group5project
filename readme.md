@@ -1,3 +1,3 @@
 Csapattagok: 
-- Varga Ádám
+- Varga Ádám Tamás
 - Nyári Patrik
