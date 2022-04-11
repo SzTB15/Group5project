@@ -12,21 +12,21 @@
     <div class="container">
         <!-- Menü -->
         <div class="menu border-bottom border-2">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top menu border-bottom border-2">
                 <div class="container-fluid">
-                        <div class="container">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="/Képek/logo.png" alt="" width="9%">
-                                Patrick's Kebap
-                            </a>
-                        </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse">
+                        <a class="navbar-brand " href="index.html">
+                            <img class="d-inline-block" style="margin-right: 1%;" src="/Képek/logo.svg" alt="" width="30px">
+                            Patrick's Kebab
+                        </a>
+                    </div>
+                    <div  class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="index.html">Kezdőlap</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="rolunk.html">Rólunk</a>
@@ -35,16 +35,45 @@
                                 <a class="nav-link " aria-current="page" href="ajanlataink.html">Ajánlataink</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="uzleteink.html">Üzleteink</a>
+                                <a class="nav-link " aria-current="page" href="uzleteink.html">Üzleteink</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="karrier.html">Karrier</a>
                             </li>
                         </ul>
+                            <a class="btn btn-outline-success" href="rendeles.html">Rendelés</a>
                     </div>
                 </div>
             </nav>
         </div>
+
+        
+            <h1>Üzleteink</h1>
+        
+
+        <div class="container m-2">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item bg-info">Győr</li>
+                <li class="list-group-item bg-info">Szent István utca</li>
+                <li class="list-group-item bg-info">11.</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-sm">
+                <li class="list-group-item bg-info">Budapest</li>
+                <li class="list-group-item bg-info">Galamb utca</li>
+                <li class="list-group-item bg-info">64.</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item bg-info">Békéscsaba</li>
+                <li class="list-group-item bg-info">Vándor utca</li>
+                <li class="list-group-item bg-info">16.</li>
+              </ul>
+        </div>
+    
+    <h1>Nyitvatartás:</h1>
+    
+        <p>Hétfő-Péntek: 6-18 óráig</p>
+        <p>Szombat: 6-16 óráig</p>
+        <p>Vasárnap: 6-12 óráig</p> 
 
     </div>
 </body>
