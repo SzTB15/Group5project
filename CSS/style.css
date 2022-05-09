@@ -175,3 +175,10 @@ h5 {
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.432);
 }
+
+.jelentkezz {
+    color: red;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: xx-large;
+}

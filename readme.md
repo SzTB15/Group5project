@@ -1,6 +1,6 @@
 Csapattagok:
-    -Szabó Tamás Benjamin- karrier.html, uzleteink.html
-    -Nyári Patrik- index.html
+    -Szabó Tamás Benjamin- karrier.html, uzleteink.html, rendeles.html
+    -Nyári Patrik- index.html, style.css
     -Varga Ádám Tamás- rolunk.html, ajanlataink.html
 
 Téma:

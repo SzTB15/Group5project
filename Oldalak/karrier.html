@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body class="bg-dark">
-    <div class="container">
+    <div class="container-fluid">
         <!-- Menü -->
         <div class="menu border-bottom border-2">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top menu border-bottom border-2">
                 <div class="container-fluid">
-                        <div class="container">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="/Képek/logo.png" alt="" width="9%">
-                                Patrick's Kebap
-                            </a>
-                        </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse">
+                        <a class="navbar-brand " href="index.html">
+                            <img class="d-inline-block" style="margin-right: 1%;" src="/Képek/logo.svg" alt="" width="30px">
+                            Patrick's Kebab
+                        </a>
+                    </div>
+                    <div  class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="index.html">Kezdőlap</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="rolunk.html">Rólunk</a>
@@ -38,17 +38,49 @@
                                 <a class="nav-link " aria-current="page" href="uzleteink.html">Üzleteink</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="karrier.html">Karrier</a>
+                                <a class="nav-link " aria-current="page" href="karrier.html">Karrier</a>
                             </li>
                         </ul>
+                            <a class="btn btn-outline-success" href="rendeles.html">Rendelés</a>
                     </div>
                 </div>
             </nav>
         </div>
 
+        <h1 class="mb-5"><u>Karrier</u></h1>
+        <h1 class="mb-5"><u>Karrier</u></h1>
+        
+
+        <h2 class="text-center">Amennyiben munkádra igényes vagy és lehet rád számítani szélsősőges helyzetekben is akkor olvass tovább!</h2>
+
+        <h2 class="text-center">Éttermeinkben több fős csapatok dolgoznak rugalmas munkaidő kerettel, változatos munkakörökben.</h2>
+        
+        <h2 class="text-center">Például, ha szeretsz vezetni többet futárkodhatsz, kevesebbet süthetsz/főzhetsz.</h2>
+
+        <h2 class="text-center">Versenyképes béreket kínálunk, lelkiismeretes munkáért cserébe.</h2>
+        
+        <h2 class="text-center">Újonnan nyíló üzleteibe keresi kollégáit a város legbambább csapata!</h2>
+
+        <h2 class="jelentkezz text-center">Jelentkezz most, nehogy lemaradj!</h2>
+
+        <video style="border-bottom: solid white 1px; width: 100%;" autoplay muted loop id="video">
+            <source src="/Képek/raining-money-money.mp4" type="video/mp4">
+        </video>
+
+        <footer class="bg-light text-center text-lg-start " style="border-top: solid white 1px;">
+            <!-- Copyright -->
+            <div class="text-center p-3 bg-dark">
+            © 2021 Copyright: Fingom sincs
+            </div>
+        </footer>
+
+        
     </div>
 </body>
 <head>
+    <script>
+        var video = document.getElementById("video");
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 </html>
